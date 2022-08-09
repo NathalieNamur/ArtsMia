@@ -19,11 +19,13 @@ public class ArtObject {
 	private String style;
 	private String title;
 
+	
+	
 	public ArtObject(int objectId, String classification, String continent, 
 			String country, int curatorApproved, String dated, String department, 
 			String medium, String nationality, String objectName, int restricted, 
 			String rightsType, String role, String room, String style, String title) {
-		super();
+		
 		this.id = objectId;
 		this.classification = classification;
 		this.continent = continent;
@@ -42,6 +44,8 @@ public class ArtObject {
 		this.title = title;
 	}
 
+	
+	
 	public int getId() {
 		return id;
 	}

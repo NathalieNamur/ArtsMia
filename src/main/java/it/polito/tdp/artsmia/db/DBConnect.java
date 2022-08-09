@@ -1,9 +1,9 @@
 package it.polito.tdp.artsmia.db;
+
 import java.sql.Connection;
 import java.sql.SQLException;
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
-
 
 public class DBConnect {
 
@@ -17,7 +17,7 @@ public class DBConnect {
 			HikariConfig config = new HikariConfig();
 			config.setJdbcUrl(jdbcURL);
 			config.setUsername("root");
-			config.setPassword("");
+			config.setPassword("moustache");
 			
 			//configurazione mysql
 			config.addDataSourceProperty("cachePrepStmts", "true");

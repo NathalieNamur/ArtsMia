@@ -8,8 +8,10 @@ public class Exhibition {
 	int beginYear;
 	int endYear;
 
+	
+	
 	public Exhibition(int id, String department, String title, int beginYear, int endYear) {
-		super();
+	
 		this.id = id;
 		this.department = department;
 		this.title = title;
@@ -17,6 +19,8 @@ public class Exhibition {
 		this.endYear = endYear;
 	}
 
+	
+	
 	public int getId() {
 		return id;
 	}
